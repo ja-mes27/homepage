@@ -59,17 +59,18 @@ body{
 }
 
 .heading{
-    background-color: rgb(101, 97, 107);
+    background-color: rgb(5, 0, 53);
     background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65));
     width: 100%;
-    height: 8vh;
-    position: fixed;
-    top: 0%;
-    left: 0%;
+    height: 7.8vh;
     display: flex;
     flex-basis: 0%;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9001;
 }
 
 .heading a{
@@ -77,6 +78,16 @@ body{
     text-shadow: none;
     color: rgba(240, 248, 255, 0.633);
 
+}
+
+.spacer2{
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), white, rgb(0, 0, 0, 0.4));
+    z-index: 9000;
 }
 
 .homebtn{
@@ -301,10 +312,10 @@ a:hover{
     }
 
     .heading{
-        background-color: rgb(101, 97, 107);
-        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65));
+        /* background-color: rgb(101, 97, 107);
+        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65)); */
         width: 100%;
-        height: 11vh;
+        height: 10.8vh;
         position: fixed;
         top: 0%;
         left: 0%;
@@ -312,6 +323,16 @@ a:hover{
         flex-basis: 0%;
         justify-content: center;
         align-items: start;
+    }
+
+    .spacer2{
+        height: 11vh;
+        width: 100vw;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), white, rgb(0, 0, 0, 0.4));
+        z-index: 9000;
     }
 
     .navi{
@@ -426,10 +447,10 @@ a:hover{
     }
 
     .heading{
-        background-color: rgb(101, 97, 107);
-        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65));
+        /* background-color: rgb(101, 97, 107);
+        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65)); */
         width: 100%;
-        height: 11vh;
+        /* height: 11vh; */
         position: fixed;
         top: 0%;
         left: 0%;
@@ -551,10 +572,10 @@ a:hover{
     }
 
     .heading{
-        background-color: rgb(101, 97, 107);
-        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65));
+        /* background-color: rgb(101, 97, 107);
+        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65)); */
         width: 100%;
-        height: 11vh;
+        /* height: 11vh; */
         position: fixed;
         top: 0%;
         left: 0%;
@@ -683,10 +704,10 @@ a:hover{
     }
 
     .heading{
-        background-color: rgb(101, 97, 107);
-        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65));
+        /* background-color: rgb(101, 97, 107);
+        background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(0, 0, 0, .65)); */
         width: 100%;
-        height: 11vh;
+        /* height: 11vh; */
         position: fixed;
         top: 0%;
         left: 0%;
