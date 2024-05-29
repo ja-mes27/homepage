@@ -311,6 +311,9 @@ img{
     .herop p{
         font-size: 0.9rem;
     }
+        .listflex li{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:500px){
