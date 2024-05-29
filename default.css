@@ -170,7 +170,7 @@ body{
 .bio .ee{
     text-decoration: none;
     text-shadow: none;
-    color: beige;
+    color: rgb(245, 254, 255);
 }
 
 a:hover{
@@ -340,7 +340,7 @@ a:hover{
     body{
         font-family: 'Trebuchet MS';
         font-size: 23px;
-        color: beige;
+        color: rgb(245, 254, 255);
         text-shadow: 0px 0px 18px black;
         display: flex;
         flex-direction: column;
@@ -465,7 +465,7 @@ a:hover{
     body{
         font-family: 'Trebuchet MS';
         font-size: 23px;
-        color: beige;
+        color: rgb(245, 254, 255);
         text-shadow: 0px 0px 18px black;
         display: flex;
         flex-direction: column;
@@ -594,7 +594,7 @@ a:hover{
     body{
         font-family: 'Trebuchet MS';
         font-size: 23px;
-        color: beige;
+        color: rgb(245, 254, 255);
         text-shadow: 0px 0px 18px black;
         display: flex;
         flex-direction: column;
@@ -722,7 +722,7 @@ a:hover{
     body{
         font-family: 'Trebuchet MS';
         font-size: 23px;
-        color: beige;
+        color: rgb(245, 254, 255);
         text-shadow: 0px 0px 18px black;
         display: flex;
         flex-direction: column;
