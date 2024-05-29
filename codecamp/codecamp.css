@@ -256,6 +256,10 @@ img{
     .ccbtn a{
         font-size: 0.8rem;
     }
+
+    .drum{
+        display: none;
+    }
 }
 
 @media screen and (max-width:800px){
