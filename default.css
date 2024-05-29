@@ -170,7 +170,7 @@ body{
 .bio .ee{
     text-decoration: none;
     text-shadow: none;
-    color: rgb(245, 254, 255);
+    color: beige;
 }
 
 a:hover{
@@ -281,9 +281,15 @@ a:hover{
 @media screen and (max-width:800px){
 
     .quickflex{
-        position: relative;
-        top: 20vh;
-        padding: 30vh;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 1;
+        width: auto;
+        height: 100vh;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        
     }
 
     li{
@@ -558,6 +564,10 @@ a:hover{
         align-items: start;
     }
 
+    .quickflex h1{
+        font-size: 4rem;
+    }
+
     .navi{
         display: none;
     }
@@ -662,6 +672,10 @@ a:hover{
 
     li{
         list-style-type: none;
+    }
+
+    .quickflex h1{
+        font-size: 3rem;
     }
 
     .dropdown{
